@@ -31,7 +31,23 @@
         "What's a look they gave you tonight you'd like to see again, right now?",
         "Admit the exact second tonight the energy between you changed. Were you right about why?",
         "What's one thing about tonight that already feels different from a normal night out?",
-        "Say, plainly, one reason you're glad it's them sitting across from you right now."
+        "Say, plainly, one reason you're glad it's them sitting across from you right now.",
+        "What's a memory of them — from tonight or before — that you didn't expect to still be thinking about?",
+        "Does the way they say your name do anything to you? Tell them, honestly.",
+        "What's the first thing you noticed about their hands tonight?",
+        "Name one thing about the way they move through a room that you find more attractive than you'd say in front of other people.",
+        "What's something they're wearing tonight that you keep circling back to?",
+        "Complete this without planning it first: 'What gets me is the way you—'",
+        "What's a compliment about their mind you've been sitting on all night?",
+        "What's the quietest moment tonight that you actually liked the most?",
+        "Name the exact distance you'd want to be sitting from them right now, if you could just say it plainly.",
+        "What's one thing about them you're genuinely curious to find out before the night's over?",
+        "Tell them what you think they're like when nobody else is around to see it.",
+        "What's a small thing they did tonight — probably without noticing — that you noticed completely?",
+        "Give them the compliment that's a little too honest to just be nice.",
+        "What's something about sitting close to someone warm that you like more than you'd admit out loud?",
+        "Pick one — their laugh, their eyes, or their hands — and explain why that one's the hardest to look away from.",
+        "What's the last thing about them tonight that made you want to keep looking?"
       ]
     },
     "2": {
@@ -62,7 +78,23 @@
         "What's the difference between what you're saying right now and what you're actually thinking?",
         "Name exactly where you'd want their attention next, if you're honest.",
         "What's one thing you want badly enough tonight that it's a little embarrassing to admit?",
-        "Tell them, plainly: what do you want to happen between you two in the next hour?"
+        "Tell them, plainly: what do you want to happen between you two in the next hour?",
+        "What does your breathing do when they get this close? Notice it right now and say what you notice.",
+        "What's the last thing their hands did tonight that you wanted to feel instead of just watch?",
+        "Name one memory — from tonight, or from way before tonight — that this exact moment just reminded you of.",
+        "What are you anticipating happening in the next five minutes that you haven't said out loud yet?",
+        "Sit still for three seconds, then tell them what your body's doing that your face isn't.",
+        "How close would you let them get right now, if there were absolutely no reason to hold back?",
+        "What's the one word for how warm it suddenly feels? Say it — don't explain it.",
+        "Tell them exactly what it does to you when they lower their voice like that.",
+        "What's the next card you're hoping comes up — and what would you actually do if it did?",
+        "Name the exact spot tonight where you first stopped being able to concentrate on anything else.",
+        "What's making it hardest to sit still right now?",
+        "If they reached for your hand this second, what would you actually do? Be honest, not polite.",
+        "If your hands got a vote right now, what would they want to do?",
+        "Say the thing you'd only ever text at 1am — out loud, right now, whatever time it actually is.",
+        "What's a question about tonight you're dying to ask them but haven't let yourself?",
+        "Tell them what 'slow down' actually means to you right now — and whether you mean it."
       ]
     },
     "3": {
@@ -93,7 +125,23 @@
         "What's the truest way to say 'I want you closer' without using those exact words? Try it.",
         "Say what you're hoping happens after the last card — and know that 'nothing yet' is a complete answer.",
         "What's one thing about wanting them that feels different tonight than it has before?",
-        "Tell them, plainly and without a joke to hide behind, why it's them you want closer tonight."
+        "Tell them, plainly and without a joke to hide behind, why it's them you want closer tonight.",
+        "What does it do to your breathing when they say your name like that? Describe it, don't just name it.",
+        "If your hands could do anything right now with no explanation needed, what would they reach for?",
+        "What's a memory — maybe not even about them — that being this close to them just brought back?",
+        "What's one thing you haven't let yourself hope for tonight, even quietly?",
+        "Go quiet for a second, then tell them what the silence between you just felt like.",
+        "How much distance between you right now feels like too much? Say it honestly.",
+        "What's the exact word for the heat in this moment — not 'hot,' the real one?",
+        "What does your voice do when you talk to them like this — softer, slower, something else? Name it.",
+        "What's one thing you'd want their hands to do right now, if you let yourself say it out loud?",
+        "Are your hands still right now, or fidgeting — and what does that tell you?",
+        "Say one true thing about wanting them that you've never said to anyone, about anyone.",
+        "What's a version of 'stay' you'd actually mean tonight, if you said it?",
+        "What's the part of you that's the most present right now — not thinking ahead, not overthinking, just here?",
+        "Tell them what you were thinking in the quiet right before this card came up.",
+        "What's the truest thing your body is telling you right now that your words haven't caught up to yet?",
+        "If tonight had to peak somewhere, does it feel like it already has, or like it's still building?"
       ]
     }
   },
@@ -113,7 +161,15 @@
     "Hold your palm an inch from their cheek, close enough to feel the warmth, no closer, for five seconds.",
     "Stand on opposite sides of the room. Walk toward each other at half your normal speed — no touching until you arrive.",
     "Ask them a yes-or-no question using only your eyes and your face — no words. They answer the same way.",
-    "Write the truest compliment you've got across the back of your own hand, show it to them for three seconds, then wipe it clean."
+    "Write the truest compliment you've got across the back of your own hand, show it to them for three seconds, then wipe it clean.",
+    "Say their name once, quietly, like it's the only word you're allowed to use tonight — then hold five seconds of silence after.",
+    "Hold both of their hands, palms up, and trace one slow line across each palm with your fingertip — no words until you're done.",
+    "Sit back to back, shoulders touching, and describe out loud one thing you notice without being able to see them.",
+    "Trace the line of their jaw with one fingertip, slow enough they could stop you — then tell them one memory it just brought back.",
+    "Lean in like you're about to say something — then hold three full seconds before you actually say it.",
+    "Cup their face in one hand for a slow count of five, palm still, no stroking — then let go and say what you noticed.",
+    "Exhale slowly while they inhale, and swap breaths like that three times, no talking — then tell them how it felt.",
+    "Hum the first few notes of a song that reminds you of them. Don't explain why until they guess."
   ],
   "final": [
     "Last card. Put the phone down after this one — everything else can wait thirty seconds.",

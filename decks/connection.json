@@ -29,7 +29,24 @@
         "If tonight had a soundtrack, what's the first song on it?",
         "What's a moment this year that felt like it belonged in a movie, with you in the lead?",
         "What's the last thing you searched that says way too much about your week?",
-        "What do you order without even looking at the menu?"
+        "What do you order without even looking at the menu?",
+        "What's a small superstition you secretly follow, even though you know it's silly?",
+        "What's the last thing that made you laugh out loud when you were completely alone?",
+        "What's a food combination you love that everyone else thinks is a crime?",
+        "What's something you're weirdly, unnecessarily competitive about?",
+        "What's a compliment someone gave you once that you still carry around?",
+        "What's the most impulsive good decision you've ever made?",
+        "What's a movie or show you could rewatch forever and never get tired of?",
+        "What's a nickname you've had — good, bad, or humiliating?",
+        "What's the best gift you've ever given someone, and how'd you land on it?",
+        "What's something you collect, on purpose or completely by accident?",
+        "What's a place you've never been that you think about more than you'd expect?",
+        "If a free flight left tomorrow with your name on it, no questions asked, where does it take you?",
+        "What's a small habit you'd probably deny having unless someone asked you straight out?",
+        "What's the strangest job you've ever done, even just for a day?",
+        "What's a phrase or saying you picked up from someone and never put down?",
+        "What's your actual karaoke song — the one you'd pick, not the one you'd claim?",
+        "What's something that makes you trust a stranger almost instantly?"
       ]
     },
     "2": {
@@ -59,7 +76,24 @@
         "Who's someone you've drifted from that you still think about?",
         "What's a way you show love that people might not clock as love?",
         "What's something you privately worry might be true about you?",
-        "What do you wish someone would just notice about you, without you having to say it?"
+        "What do you wish someone would just notice about you, without you having to say it?",
+        "What's something about who you are that you're still figuring out, even now?",
+        "What's a piece of advice you give other people but can't quite take yourself?",
+        "When did you last feel truly safe with someone — not physically, just safe?",
+        "What's something you pretend doesn't bother you, but it actually does?",
+        "What's a question people used to ask you that you wish they still would?",
+        "What's something you're grieving that isn't a death — a plan, a version of life, a person who's still around?",
+        "What's the kindest thing you could say to yourself right now that you haven't?",
+        "What's something you've gotten better at hiding instead of actually healing?",
+        "Who's the person you'd call at 3am without hesitating — and does the length of that list say something?",
+        "What's something you're quietly waiting for permission to do, even though no one's stopping you but you?",
+        "What's a way you've let yourself down that you haven't quite forgiven yet?",
+        "What's something you never really let yourself fall apart over, even though you probably needed to?",
+        "What's a part of your life that looks completely fine from the outside but doesn't always feel that way?",
+        "What's something you wish you could unlearn about how relationships are supposed to work?",
+        "What's a moment someone saw the real you before you were ready for it?",
+        "What's something you're scared you might want too much?",
+        "What's a way you protect yourself that might also be keeping the right people out?"
       ]
     },
     "3": {
@@ -89,7 +123,23 @@
         "What's a version of 'I love you' you find easier to show than to say?~After they answer, tell them you've noticed — and when.",
         "What's something you once needed someone to fight for, and nobody did?~After they answer, tell them: you would have.",
         "What's a question about yourself you're honestly afraid of the answer to?~You don't have to answer it tonight — just tell them what the question is, and let it sit there between you.",
-        "When did you last feel proud of who you are, not just what you did?~After they answer, tell them: that's exactly who you've been sitting across from tonight."
+        "When did you last feel proud of who you are, not just what you did?~After they answer, tell them: that's exactly who you've been sitting across from tonight.",
+        "What's true about how you're feeling right now, in this exact second, that you haven't said out loud?",
+        "What's something you're only now realizing about yourself, right in this conversation?",
+        "What's the bravest thing about how you've shown up tonight?",
+        "Say the thing you'd say if you knew, for certain, it wouldn't scare them off.",
+        "What do you notice in your body right now, after everything you've just said tonight?",
+        "What's something about tonight that's made you see them differently than you did an hour ago?",
+        "What's true about you tonight that wouldn't have been true a year ago?",
+        "What's a feeling you're having right now that you're tempted to downplay?",
+        "What's something you've never said to someone you loved because the timing never felt right?~After they answer, ask them: is there a version of it you could say out loud tonight — to anyone?",
+        "What's a wound that's mostly healed but still aches on the right day?~After they answer, ask what helps on those days — and tell them you'll remember it.",
+        "What's something you did once that still quietly embarrasses you, even though nobody else remembers it?~After they answer, tell them: that's not who you see sitting across from you.",
+        "What's a part of yourself you're only now starting to actually like?~After they answer, tell them one thing you already liked about it before they said anything.",
+        "What's something you needed to hear from a parent that you're still waiting on?~After they answer, say the thing to them — as if you were the one who should've said it.",
+        "What's the loneliest you've ever felt while surrounded by people who loved you?~After they answer, tell them: you're not in that room right now.",
+        "What's something you're carrying tonight that you didn't expect to bring up?~You don't have to explain it fully — just name it, and let them sit in it with you.",
+        "What's a version of the future you're quietly hoping for, even if you'd never bet on it out loud?~After they answer, ask them what the very first sign of it coming true might look like."
       ]
     }
   },
@@ -107,7 +157,13 @@
     "After their next answer, say back what you actually heard before you reply with your own. Not 'same' — the real thing, in your own words.",
     "Raise whatever's in your hand and give them an actual, specific toast. Not 'cheers' — a real one, out loud.",
     "Both say one true thing about yourselves you don't say often — but you have to look at each other the whole time, not the table.",
-    "Ask them one question you've been curious about all night but haven't asked yet."
+    "Ask them one question you've been curious about all night but haven't asked yet.",
+    "Switch seats, or scoot closer than you started. Notice if anything shifts.",
+    "Ask them to teach you one thing they know how to do — right now, in one sentence.",
+    "Hold their hand for five seconds. No talking. Just that.",
+    "Mirror their posture for the next thirty seconds without telling them why.",
+    "Ask them what they need to hear right now — then actually say it, out loud.",
+    "Ask them to describe you in exactly three words — no hedging, no take-backs."
   ],
   "final": [
     "Look at each other properly for a second — not mid-sentence, not through a screen. Just look.",

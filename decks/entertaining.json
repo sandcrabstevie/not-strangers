@@ -31,7 +31,23 @@
         "On three, guess out loud how many people here have already misplaced their phone tonight, however briefly. Closest guess wins.",
         "Vote: who's the room's designated adult when things go sideways. Reveal on three — they have to accept the badge.",
         "Call it now: name one topic that's guaranteed to come up again before tonight's over. Get proven right or wrong later.",
-        "Quick poll: is this group more \"same page\" or \"wildly different opinions\" tonight. Vote, then name the biggest outlier."
+        "Quick poll: is this group more \"same page\" or \"wildly different opinions\" tonight. Vote, then name the biggest outlier.",
+        "Quick split: morning people to one side of the room, night owls to the other — no straddling the line.",
+        "Silent vote: point at who's most likely to already know everyone else's usual order at the nearest food spot. Reveal on three.",
+        "Guess it out loud: how many people in this room have never met before tonight. Lock in your number before anyone answers for real.",
+        "Vote: who'd last longest without their phone if it got taken away right now. No self-nominations counted.",
+        "Hold up fingers for how many unread messages you're currently ignoring. Highest number reads the oldest one aloud, or takes the pass.",
+        "Quick poll: has this room agreed on more things tonight, or argued about more things. Majority calls it, minority gets ten seconds to object.",
+        "Show of hands: who's already forgotten someone's name in this room tonight. No confessions needed, just hands.",
+        "Point at whoever's most likely to be hungry again within the hour. Reveal on three — winner gets first dibs on whatever's nearest.",
+        "Quick poll: is the group leaning more toward staying in or heading out if tonight took a plot twist. Vote now, hold the room to it later.",
+        "Rate this room's energy right now, one to ten, everyone shouting their number at once on three. Biggest gap between two numbers compares notes.",
+        "Vote: who in this room made their bed this morning. Guess first, then an honest show of hands settles it.",
+        "Blind guess: how many people here are one snack, drink, or bathroom break away from checking out. Closest guess wins.",
+        "Split the room: window-seat people versus aisle-seat people, forced choice, right now.",
+        "Silent vote: point at who's most likely to already have tomorrow fully planned out. Reveal on three.",
+        "Vote: who's most likely to strike up a conversation with a total stranger in the next five minutes. Reveal on three, then actually watch for it.",
+        "Quick poll: is this room running early, on time, or late for wherever it's supposed to be next. Majority vote decides, no checking phones to confirm."
       ]
     },
     "2": {
@@ -63,7 +79,23 @@
         "Give directions to the nearest exit like you're narrating the final act of an action movie.",
         "Hum a song the group names, badly on purpose, until someone guesses it correctly.",
         "Deliver your own voicemail greeting like you're famous now and mildly inconvenienced by it.",
-        "Give the most dramatic reading possible of whatever nearby object has words on it — receipt, label, anything."
+        "Give the most dramatic reading possible of whatever nearby object has words on it — receipt, label, anything.",
+        "Give a toast to this exact room like it's a wedding reception and you've been asked to speak with zero notice.",
+        "Play both the interviewer and the guest in a rapid-fire interview about your day, switching seats or voices every time you swap roles.",
+        "Deliver the \"and that's how it all started\" opening line of a legendary story about this exact room, like you're already retelling it years from now.",
+        "Act out receiving genuinely amazing news by text, using only your face and one word — no more.",
+        "Give an impassioned defense of your favorite food, like someone in this room just insulted it to your face.",
+        "Do a slow-motion stumble-and-dramatic-recover, like you just tripped over nothing at all.",
+        "Introduce yourself to the room like you're a contestant walking onto a reality show for the very first time.",
+        "Give an over-the-top motivational speech to an inanimate object like it's about to run a marathon.",
+        "Deliver a eulogy for the last thing that broke, spilled, or went wrong for you this week.",
+        "Do your most convincing \"everything is fine\" while visibly falling apart. The group rates the performance.",
+        "Explain how to tie a shoe, make a sandwich, or parallel park — group's choice — using only interpretive dance, no words allowed.",
+        "Play tour guide, showing the room around this exact room like it's a historic landmark with a rich and mysterious past.",
+        "Give a dramatic countdown launch of the nearest drink like it's rocket fuel, full mission control voice.",
+        "React like you just spotted your celebrity crush across the room, using the nearest person as the stand-in.",
+        "Do a full slow-clap, gasp, and speech like you just witnessed something legendary happen in this exact room ten seconds ago.",
+        "Give a single-tear, award-show reaction shot to the most mundane thing anyone says in the next thirty seconds."
       ]
     },
     "3": {
@@ -95,7 +127,23 @@
         "Everyone secretly predicts who'll come out on top of the next showdown card, whatever it ends up being. Reveal it now — anyone who guessed right gets to skip their next dare.",
         "Two players get the same line from the phone in two different styles — one dramatic, one deadpan. Both perform back to back; the room decides the winner by volume of applause alone.",
         "One player chooses, on behalf of the whole room, between two ridiculous options someone else names on the spot. Everyone else lives with it — no complaints, no re-votes.",
-        "Everyone quietly thinks of the most chaotic thing that's happened in this exact room tonight. Whoever's willing raises a hand on three — the room votes which raised hand is hiding the best story, and they have to tell it."
+        "Everyone quietly thinks of the most chaotic thing that's happened in this exact room tonight. Whoever's willing raises a hand on three — the room votes which raised hand is hiding the best story, and they have to tell it.",
+        "Phone gives two volunteers the exact same impossible situation to talk their way out of — sixty seconds each, solo. The room votes whose excuse actually would have worked.",
+        "Silent scavenger dash: phone names something absurdly specific — \"something with the letter Q on it.\" Everyone has fifteen seconds to grab it or point to it — last to produce something owes the room a forfeit.",
+        "Charades knockout: phone gives silent categories one at a time, two players act simultaneously, the room points at whoever they guess first — losers join the guessing pool for the next round.",
+        "Phone invents a fake statistic about this exact room — \"forty percent secretly hate mornings.\" Vote whether it sounds true, out loud on three, then guess out loud who's most likely inside that percentage.",
+        "Phone splits the room into two teams by coin flip, no picking allowed. Sixty seconds to invent a team name and chant it once, live, for the other team to judge.",
+        "One player is secretly handed a location by the phone. The room fires yes-or-no questions for sixty seconds to guess it — every wrong guess costs the room a forfeit, a correct guess ends it early.",
+        "Everyone votes anonymously, into a closed fist, for the best dare of the night so far. Reveal on three — whoever it was has to top it, live, right now.",
+        "Phone calls a made-up Olympic event using only what's in the room. Two volunteers compete for real, side by side, room judges gold on the spot.",
+        "Phone gives the group a fake headline about themselves, five years from now. Everyone votes which nominee's future sounds most likely to actually happen.",
+        "Two players get sixty seconds each to convince the room they're secretly the most interesting person here. Room picks the winner by a show of hands, no re-votes allowed.",
+        "Phone names a completely made-up superlative — \"most likely to accidentally start a trend.\" Nominations happen live, room narrows it to two finalists, then decides by volume of cheering.",
+        "Everyone strikes a \"trophy pose\" on three, like they just won tonight outright. Loudest room reaction picks the winner, who holds the pose through the next card.",
+        "Phone privately hands one player a secret physical tic to repeat through the next two minutes of normal conversation — tapping the table twice, touching an ear, anything small. Everyone else tries to clock it before time's up; guess right and they're busted, time runs out and they got away with it.",
+        "Everyone silently picks a number between one and the room's total headcount. Call it out at once on three — anyone whose number is unique wins instantly; if everyone clashes, reveal and try again.",
+        "Phone gives everyone the same random object to reimagine. Thirty seconds to silently invent its best new use, then everyone acts it out at once on three — the room points at the funniest.",
+        "One player steps out of earshot for thirty seconds. Everyone else agrees on one small thing to change — a seat, an object's position, anything. Player returns with sixty seconds to spot it; guess right and the room owes a forfeit, guess wrong and they do."
       ]
     }
   },
@@ -115,7 +163,15 @@
     "Phone hands one player a wildly specific fake prediction about their coming week. Deliver it like a genuine psychic — straight face, full commitment.",
     "Go around the circle building one sentence about this group, one word at a time, clapping the rhythm as it grows. First to break the clap restarts it.",
     "Everyone claims the nearest object as their weapon for an imaginary duel. Phone calls two names — they narrate the whole showdown in slow motion, group declares the winner.",
-    "Phone gives the room a single word. Everyone tries to work it into normal conversation within the next two minutes without announcing it — spot who's struggling."
+    "Phone gives the room a single word. Everyone tries to work it into normal conversation within the next two minutes without announcing it — spot who's struggling.",
+    "Memory flash: everyone studies the room for five seconds with eyes closed, then the phone asks one detail — most correct answers wins bragging rights, no prizes.",
+    "Group count-up: starting from one, the room counts upward, one number per person, in any order — say a number at the same time as someone else and the count restarts from one. See how high you can get.",
+    "Blind-point trust test: eyes closed, everyone silently points toward where they think the quietest person in the room is standing right now. Open on three, count who guessed closest.",
+    "Silly group math: phone gives an equation using people in the room, like \"tallest plus loudest minus most tired.\" Group has ten seconds to shout the correct answer together.",
+    "Synchronized jump-and-shout: everyone jumps and calls out a random number between one and twenty at the same time, on three. Closest two numbers get a rematch, just the two of them.",
+    "Human sound machine: one person starts a repeating noise and small motion, the next person adds their own on top without stopping the first, building until the whole room is one machine.",
+    "Pose telephone: everyone strikes any pose on three, then on the next three, copies the pose of whoever's now on their left. Watch what it's turned into by the time it's back around.",
+    "Group breath-hold countdown: everyone holds their breath together on three — last one still holding gets to pick the next wildcard played."
   ],
   "final": [
     "Last card. Everyone up — whatever's in reach goes in the air: glass, cup, phone, fist, doesn't matter.",
