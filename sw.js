@@ -1,10 +1,10 @@
 /* Getting Warmer — offline support.
    Network-first for pages/decks (updates flow when online), cache-first for art/icons.
    Bump CACHE version on breaking deploys. */
-var CACHE = "gw-v3";
+var CACHE = "gw-v4";
 var PRECACHE = [
   "./", "./index.html", "./manifest.json",
-  "./decks/firstdates.json", "./decks/cheeky.json", "./decks/sexy.json",
+  "./decks/firstdates.json", "./decks/toofar.json", "./decks/cheeky.json", "./decks/sexy.json",
   "./decks/connection.json", "./decks/funny.json", "./decks/entertaining.json",
   "./art/firstdates-c2.webp", "./art/cheeky-b.webp", "./art/sexy-c1.webp",
   "./art/connection-b.webp", "./art/funny-b.webp", "./art/entertaining-b.webp",

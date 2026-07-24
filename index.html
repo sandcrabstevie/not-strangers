@@ -275,7 +275,7 @@
       wild:["Give a ten-second sales pitch for the most useless object within reach. Full enthusiasm, no breaking character.","Do your best impression of the last person you texted. They guess who it is.","Swap phones for fifteen seconds. Change one thing on their home screen before you swap back.","Give them a nickname on the spot. It's in effect for the rest of the night — no appeals.","Confess one small lie you told tonight, right now — then say what actually happened.","Guess their most-used emoji — then check their phone to see if you're right.","Say the most confident thing you can about yourself. They have to cheer like you just won something.","Pick an accent. You're stuck in it for the next three cards — they call it if you slip."],
       final:["Look at them for a second before you say anything — actually look.","Now say the nicest true thing you've got. No dodging it with a joke yet.","There — you're allowed the joke now. Ruin it properly, then go be trouble together."] },
 
-    sexy:{ displayName:"Sexy", accent:"#ff6a9c", art:"sexy-c1.webp", sub:"Tension, your pace — always your call to skip.",
+    sexy:{ displayName:"Sexy", accent:"#ff6a9c", art:"sexy-c1.webp", adult:true, sub:"Tension, your pace — always your call to skip.",
       tiers:{ 1:{name:"Simmer",temp:"warm",q:["What made you want to be here with them tonight?","What's a red flag you find embarrassingly attractive? Tell them why it works on you.","Say the first thing you noticed about them — out loud, right now.","Finish this out loud: 'I like the way you—'","Admit one thing about your type you don't usually say out loud. You go first.","What's a compliment about yourself you're quietly hoping to hear tonight?","What's something small they've done tonight that you found unfairly attractive?","Rate the eye contact you two have had so far, out of 10 — then say why.","What were you hoping tonight would be, before you got here? Skipping counts as an answer, too.","What's a compliment you've been sitting on all night? This is your cue."]},
         2:{name:"Heat",temp:"hot",q:["What's a moment tonight you wanted to reach for their hand and didn't?","Say the one thing about them that's been distracting you all night.","Finish this out loud: 'What I haven't said yet is—'","What's the most attractive thing you've heard them say since you sat down?","What have you actually been thinking about for the last thirty seconds? Say it, unfiltered.","What's a compliment that would genuinely fluster you if they said it right now?","Name the exact moment tonight you started paying real attention to them.","What's got you a little wound up about tonight? Be specific.","Say something you'd normally save for when you knew each other better.","What's one thing about them you're curious about but haven't asked yet? Ask it after this."]},
         3:{name:"Closer",temp:"hot",q:["Right now, in this room — what does this actually feel like? No wrong answer, and skipping is a fine one.","What's something about your own body you don't get complimented on enough?","Say the truest thing you're thinking right now. Just say it, plainly.","What's a compliment you've never told them, that you actually mean?","Finish this out loud: 'What I want more of tonight is—'~Words only — this one's a conversation, not a dare.","What's one moment from tonight you already know you'll be thinking about tomorrow?","Tell them what it does to you when they look at you like that.","What's something you want them to know tonight that you might never say unless asked?"]} },
@@ -303,7 +303,7 @@
       wild:["Someone calls a song and a style — 'as a lullaby,' 'as a power ballad.' Sing one line, fully committed, in that style.","Mime a word to the group in total silence. First to guess right picks the next word.","Two people silently act out a tiny scene. Everyone else supplies the dialogue and sound effects, shouted from the sidelines.","Narrate a small real thing that happened to you today. Cast the rest of the group as the people and objects, then call 'action.'","60 seconds of stand-up about the single most mundane thing in this room, like it's the most important issue of our time.","Speed round: someone names a category — 'things you shouldn't microwave.' Go around fast. First to hesitate or repeat is out.","Someone gets a fake persona — 'competitive duck herder, here to discuss the scandal.' Everyone else interviews them in character.","30 seconds, total silence: the whole group arranges itself in height order using gestures only."],
       final:["Last one. Everyone up — glasses, cups, or just hands in the air.","Vote: best moment of the whole night. On three, everyone points at the winner.","Whatever's in your hand, raise it — cheers to them, and to this exact group."] }
   };
-  var ORDER = ["firstdates","cheeky","sexy","connection","funny","entertaining"];
+  var ORDER = ["firstdates","toofar","cheeky","sexy","connection","funny","entertaining"];
 
   var app = document.querySelector(".app");
   var modeart = document.getElementById("modeart");
@@ -346,10 +346,11 @@
     var grid=document.getElementById("grid"); grid.innerHTML="";
     ORDER.forEach(function(key){
       var m=MODES[key];
+      if(!m){ return; } /* deck file missing + no inline fallback (offline, first visit) — skip the tile, don't crash the grid */
       var b=document.createElement("button"); b.className="tile"; b.style.setProperty("--tacc", m.accent);
       var bg = m.art ? '<div class="bg" style="background-image:url('+ART+m.art+')"></div>' : '<div class="grad"></div>';
       b.innerHTML = bg + '<div class="veil"></div><span class="dot"></span>'+
-        (key==="sexy" ? '<span class="age">18+</span>' : '')+
+        (m.adult ? '<span class="age">18+</span>' : '')+
         '<div class="lab"><div class="tn">'+m.displayName+'</div><div class="ts">'+m.sub+'</div></div>';
       b.onclick=function(){ startMode(key); };
       grid.appendChild(b);
@@ -418,7 +419,7 @@
   function loadDecks(){
     return Promise.all(ORDER.map(function(key){
       return fetch("decks/"+key+".json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){
-        if(MODES[key]){ if(d.displayName)MODES[key].displayName=d.displayName; if(d.sub)MODES[key].sub=d.sub; if(d.tiers)MODES[key].tiers=d.tiers; if(d.wild)MODES[key].wild=d.wild; if(d.final)MODES[key].final=d.final; }
+        if(MODES[key]){ if(d.displayName)MODES[key].displayName=d.displayName; if(d.sub)MODES[key].sub=d.sub; if(d.tiers)MODES[key].tiers=d.tiers; if(d.wild)MODES[key].wild=d.wild; if(d.final)MODES[key].final=d.final; if(d.accent)MODES[key].accent=d.accent; if(d.adult!=null)MODES[key].adult=d.adult; }
         else { d.accent=d.accent||"#a4b8ce"; d.art=d.art||null; MODES[key]=d; }
       }).catch(function(){ /* keep inline fallback for this mode */ });
     }));
