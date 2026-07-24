@@ -7,11 +7,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Not Strangers">
-<title>Not Strangers</title>
+<meta name="apple-mobile-web-app-title" content="Getting Warmer">
+<title>Getting Warmer</title>
 <meta name="description" content="Six games for people in a room — pass the phone, both answer, the room gets warmer. No app, no signup.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Not Strangers">
+<meta property="og:title" content="Getting Warmer">
 <meta property="og:description" content="Six games for people in a room — pass the phone, both answer, the room gets warmer.">
 <meta property="og:image" content="https://sandcrabstevie.github.io/not-strangers/og.jpg">
 <meta property="og:url" content="https://sandcrabstevie.github.io/not-strangers/">
@@ -64,7 +64,8 @@
   #home{ overflow-y:auto; -webkit-overflow-scrolling:touch; }
   #home .wrap{ padding-top:max(38px,env(safe-area-inset-top)); padding-bottom:max(34px,env(safe-area-inset-bottom)); }
   .brand{ font-family:var(--serif); font-weight:500; line-height:.92; letter-spacing:-.02em; font-size:clamp(44px,15vw,72px); margin:0 0 12px; }
-  .brand .n{ color:var(--ink); } .brand .s{ color:var(--ink-dim); font-style:italic; }
+  .brand .gw1{ color:#a4b8ce; }
+  .brand .gw2{ font-style:italic; background:linear-gradient(100deg,#e6a862 15%,#e86a7f 85%); -webkit-background-clip:text; background-clip:text; color:transparent; }
   .lede{ color:var(--ink-dim); font-size:15px; line-height:1.5; margin:0 0 6px; max-width:32ch; }
   .lede em{ color:#e6a862; font-style:normal; }
   .subline{ color:var(--ink-faint); font-size:12px; letter-spacing:.02em; margin:0 0 24px; }
@@ -173,7 +174,7 @@
   <!-- HOME -->
   <section id="home" class="screen active">
     <div class="wrap">
-      <h1 class="brand"><span class="n">Not</span> <span class="s">Strangers</span></h1>
+      <h1 class="brand"><span class="gw1">Getting</span> <span class="gw2">Warmer</span></h1>
       <p class="lede">No cards, no setup — just your phone and <em>someone across from you</em>. Pass it back and forth, both answer, and the room gets warmer as you go.</p>
       <p class="subline">2+ players · pick a game</p>
       <p class="kicker">Choose your game</p>
@@ -437,7 +438,7 @@
 
   /* share — the pass-it-on loop */
   function shareApp(srcBtn){
-    var data = { title:"Not Strangers",
+    var data = { title:"Getting Warmer",
       text:"Six games for people in a room — pass the phone, both answer. No app, no signup.",
       url: location.origin + location.pathname };
     if (navigator.share) { navigator.share(data).catch(function(){}); }

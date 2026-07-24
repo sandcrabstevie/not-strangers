@@ -1,7 +1,7 @@
-/* Not Strangers — offline support.
+/* Getting Warmer — offline support.
    Network-first for pages/decks (updates flow when online), cache-first for art/icons.
    Bump CACHE version on breaking deploys. */
-var CACHE = "ns-v2";
+var CACHE = "gw-v3";
 var PRECACHE = [
   "./", "./index.html", "./manifest.json",
   "./decks/firstdates.json", "./decks/cheeky.json", "./decks/sexy.json",
