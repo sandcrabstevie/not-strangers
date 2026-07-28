@@ -318,9 +318,37 @@
     return out;
   }
   var PER_TIER = 12; /* draw a fresh sample from each tier's (large) pool per session, so a play is a good length AND different every time */
+  /* a random sample can deal six same-mechanic cards in a row — the flatness failure mode.
+     Classify each card by its mechanic and round-robin the buckets so types alternate. */
+  var KINDS=[/on three|three, two, one|both (say|point|answer|name|rate|write|guess|close)|at the same time|same moment/i,
+    /\bguess\b|how close (you|both)/i,
+    /rate (me|my|how|your|,)|out of ten|one to ten|they (rate|decide|judge|grade)/i,
+    /defend (it|that|your)|argue|justify|convince/i,
+    /five seconds|ten seconds|thirty seconds|first instinct|no thinking/i,
+    /would you rather|pick (one|a side)|isn't an answer|no hedging|commit to/i,
+    /impression|in (their|his|her) voice|word for word/i,
+    /look away|hold eye contact|whisper|swap phones|cover your eyes|trade phones/i];
+  function kindOf(t){ for(var i=0;i<KINDS.length;i++){ if(KINDS[i].test(t)) return i; } return 99; }
+  /* stratified draw: round-robin across mechanic buckets so no one card type can
+     dominate a hand (a plain random 12 from Blind is often 10 guess-cards). The
+     round-robin also interleaves types by construction. */
+  function sampleSpread(pool,n){
+    var buckets={}, out=[];
+    shuffle(pool.slice()).forEach(function(t){ var k=kindOf(t); (buckets[k]=buckets[k]||[]).push(t); });
+    var keys=shuffle(Object.keys(buckets));
+    while(out.length<n){
+      var progressed=false;
+      for(var i=0;i<keys.length && out.length<n;i++){
+        var b=buckets[keys[i]];
+        if(b.length){ out.push(b.shift()); progressed=true; }
+      }
+      if(!progressed) break;
+    }
+    return out;
+  }
   function buildDeck(modeKey){
     var mode=MODES[modeKey], pool=shuffle(mode.wild), deck=[];
-    [1,2,3].forEach(function(l){ if(mode.tiers[l]) deck=deck.concat(withWild(shuffle(mode.tiers[l].q).slice(0,PER_TIER), l, mode, pool)); });
+    [1,2,3].forEach(function(l){ if(mode.tiers[l]) deck=deck.concat(withWild(sampleSpread(mode.tiers[l].q, PER_TIER), l, mode, pool)); });
     return deck;
   }
   function show(id){ var s=document.querySelectorAll(".screen"); for(var i=0;i<s.length;i++) s[i].classList.remove("active"); document.getElementById(id).classList.add("active");
