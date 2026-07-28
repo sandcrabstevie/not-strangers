@@ -2,6 +2,7 @@
   "displayName": "Blind",
   "sub": "Call it before you know it. Wrong is where it gets good.",
   "accent": "#5aa9f5",
+  "art": "blind-a.webp",
   "tiers": {
     "1": {
       "name": "Cold Read",

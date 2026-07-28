@@ -2,6 +2,7 @@
   "displayName": "Too Far",
   "sub": "Judgement, confession, no hedging. Someone's getting read.",
   "accent": "#ff4d3d",
+  "art": "toofar-a.webp",
   "adult": true,
   "tiers": {
     "1": {
